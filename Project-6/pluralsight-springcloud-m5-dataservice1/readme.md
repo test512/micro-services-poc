@@ -1,0 +1,1 @@
+localhost:8000/fastpass/customer/102/contactdetails
