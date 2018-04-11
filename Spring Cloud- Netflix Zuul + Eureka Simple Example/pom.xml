@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	
+	<groupId>com.javainuse</groupId>
+	<artifactId>spring-cloud-Netflix-Zuul-Eureka</artifactId>
+	<version>1.0</version>
+	<packaging>pom</packaging>
+	
+	<!-- Spring Cloud- Netflix Zuul +Eureka Simple Example -->
+	<name>spring-cloud-Netflix-Zuul-Eureka</name>
+	<modules>
+		<module>eureka-server</module>
+		<module>employee-zuul-service</module>
+		<module>eureka-employee-consumer-zuul</module>
+		<module>employee-producer-eureka</module>
+	</modules>
+</project>
